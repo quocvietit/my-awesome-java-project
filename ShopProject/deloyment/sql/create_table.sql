@@ -1,0 +1,13 @@
+CREATE DATABASE [shop]
+GO
+
+USE [shop]
+GO
+
+CREATE TABLE [product(
+	[id] UNIQUEIDENTIFIER PRIMARY KEY IDENTITY,
+	[name] VARCHAR(50),
+	[description] VARCHAR(255),
+	[price] FLOAT
+
+)
